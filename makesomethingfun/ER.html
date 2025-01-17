@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Escape Room</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        #game-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            width: 80%;
+            margin: 10px 0;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <h1>Welcome to the Online Escape Room</h1>
+        <p id="prompt">You find yourself locked in a mysterious room. Solve puzzles to escape.</p>
+        <input type="text" id="user-input" placeholder="Type your answer here">
+        <button id="submit-btn">Submit</button>
+        <p id="feedback"></p>
+    </div>
+
+    <script src="escapeRoom.js"></script>
+</body>
+</html>
